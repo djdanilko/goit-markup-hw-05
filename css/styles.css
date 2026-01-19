@@ -592,6 +592,8 @@ a {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 8px 16px;
   background-color: transparent;
+  color: #fff;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sub-form-input::placeholder {
@@ -622,9 +624,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 16px;
 
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sub-form-btn:focus,
@@ -682,6 +685,7 @@ a {
 }
 
 .modal-close-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2e2f42;
 }
 
@@ -702,6 +706,10 @@ a {
   right: 24px;
 
   cursor: pointer;
+
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:focus,
@@ -746,6 +754,8 @@ a {
   width: 360px;
   height: 40px;
   padding-left: 38px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus {
@@ -763,6 +773,8 @@ a {
   transform: translateY(50%);
   left: 16px;
   fill: #2e2f42;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-comment-box {
 }
@@ -779,6 +791,7 @@ a {
   height: 120px;
   resize: none;
   padding: 8px 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-comment:focus {
@@ -853,6 +866,7 @@ a {
   margin-right: auto;
 
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-submit-btn:hover,
